@@ -2,9 +2,9 @@
  * @param {number[]} nums
  * @return {void} Do not return anything, modify nums in-place instead.
  * This is solved by Dutch National Flag Alogrithm in which we try to put certain numbers in start and end
- * and numbers in mid are untouched which sorts an array in a particular manner. Here we have 0,1,2 where all the 
+ * and numbers in mid are untouched which sorts an array in a particular manner. Here we have 0,1,2 where all the
  * 0 should come in front and 2 in the end.
- * 
+ *
  * Time Complexity-  O(n)
  * Space Complexity- O(1)
  */

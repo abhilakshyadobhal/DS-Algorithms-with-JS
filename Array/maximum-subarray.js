@@ -3,9 +3,9 @@
  *           only keep on adding adjacent elements if the sum of them
  *           is greator than 0 if not we reset it to 0 meaning ignoring the previous
  *           calc sum.
- * 
+ *
  * Time-Complexity:  O(n)
- * Space-Complexity: O(1) 
+ * Space-Complexity: O(1)
  */
 
 const nums = [-2, 1, -3, 4, -1, 2, 1, -5, 4];
@@ -21,5 +21,3 @@ for (i in nums) {
     max = Math.max(curr, max);
     console.log(max, curr);
 }
-
-
