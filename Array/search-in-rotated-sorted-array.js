@@ -38,7 +38,7 @@ function findMin(nums) {
     return left;
 }
 var search = function (nums, target) {
-    return nums.indexOf(target);
+    // return nums.indexOf(target);
 
     const minElIdx = findMin(nums);
     const arr1 = nums.slice(0, minElIdx);
