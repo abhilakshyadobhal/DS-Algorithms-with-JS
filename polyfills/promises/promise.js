@@ -29,7 +29,5 @@ function customPolyfill(executor) {
     executor(resolve, reject);
 }
 
-// chainan
-
 const p = new customPolyfill((res, rej) => res(1));
 p.then((r) => console.log(r, 's')).then((rs) => console.log(rs, 'sax'));

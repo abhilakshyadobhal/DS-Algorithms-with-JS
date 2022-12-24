@@ -4,10 +4,15 @@
  *     this.val = (val===undefined ? 0 : val)
  *     this.next = (next===undefined ? null : next)
  * }
- */
-/**
- * @param {ListNode} head
- * @return {ListNode}
+ *
+ * Approach- Ways we we can solve this
+ *           1. Store values in array and using two pointers solve it
+ *           2. Using stack push elements in stack in first iteration and in second iteration compare
+ *              top of stack and current head and then pop stack and move current in forward direction
+ *           3. Below solution is reversing in place without extra memory.
+ *
+ *
+ *
  */
 
 var reverseList = function (head) {

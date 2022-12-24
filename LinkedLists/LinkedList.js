@@ -41,6 +41,7 @@ LinkedList.prototype.append = function (val) {
         }
         current.next = node;
     }
+    console.log(this.head);
 };
 
 LinkedList.prototype.contains = function (val) {
