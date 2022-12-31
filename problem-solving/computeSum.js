@@ -23,6 +23,4 @@ Compute.prototype.value = function (number) {
 
 const compute = new Compute();
 
-const ans = compute.lacs(15).crore(5).crore(2).lacs(20).thousand(45).crore(7).value();
-
-console.log(ans);
+const ans = compute().lacs(15).crore(5).crore(2).lacs(20).thousand(45).crore(7).value();
